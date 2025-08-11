@@ -1,6 +1,6 @@
 file_format: "1"
-id: sofle
-name: Sofle
+id: sofle_xiao
+name: Sofle Xiao
 type: shield
 url: https://github.com/josefadamcik/SofleKeyboard
 requires: [seeeduino_xiao_ble]
@@ -12,5 +12,5 @@ features:
   # - underglow
   # - studio
 siblings:
-  - sofle_left
-  - sofle_right
+  - sofle_xiao_left
+  - sofle_xiao_right
