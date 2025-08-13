@@ -9,7 +9,7 @@ features:
   - keys
   # - display
   # - encoder
-  # - underglow
+  - underglow
   # - studio
 siblings:
   - sofle_xiao_left
