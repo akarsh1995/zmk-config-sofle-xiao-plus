@@ -1,9 +1,6 @@
 {
-	"id": "soflex",
-	"name": "Soflex by akarsh1995",
 	"layouts": {
-		"default_transform": {
-			"name": "default_transform",
+		"LAYOUT": {
 			"layout": [
 				{ "row": 0, "col": 0, "x": 0, "y": 0.389 },
 				{ "row": 0, "col": 1, "x": 1.005, "y": 0.389 },
@@ -80,7 +77,8 @@
 					"y": 4.653,
 					"r": 30,
 					"rx": 6.768,
-					"ry": 5.153
+					"ry": 5.153,
+					"h": 1.5
 				},
 				{
 					"row": 4,
@@ -89,7 +87,8 @@
 					"y": 4.653,
 					"r": -30,
 					"rx": 9.5,
-					"ry": 5.153
+					"ry": 5.153,
+					"h": 1.5
 				},
 				{
 					"row": 4,
@@ -105,23 +104,5 @@
 				{ "row": 4, "col": 12, "x": 13.257, "y": 4.147 }
 			]
 		}
-	},
-	"sensors": [
-		{
-			"ref": "left_encoder",
-			"name": "encoder_left",
-			"identifier": "encoder_left",
-			"compatible": "alps,ec11",
-			"label": "LEFT_ENCODER",
-			"enabled": true
-		},
-		{
-			"ref": "right_encoder",
-			"name": "encoder_right",
-			"identifier": "encoder_right",
-			"compatible": "alps,ec11",
-			"label": "RIGHT_ENCODER",
-			"enabled": true
-		}
-	]
+	}
 }
