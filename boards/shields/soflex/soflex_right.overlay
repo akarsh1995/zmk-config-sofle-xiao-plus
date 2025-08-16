@@ -4,6 +4,17 @@
     col-offset = <6>;
 };
 
+/ {
+    chosen {
+        zmk,battery = &vbatt;
+    };
+
+    vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "BATTERY";
+    };
+};
+
 &kscan0 {
     col-gpios
         = <&gpio1 12 GPIO_ACTIVE_HIGH>
